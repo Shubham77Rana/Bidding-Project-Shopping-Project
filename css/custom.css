@@ -1,0 +1,56 @@
+/** Your theme modifications here **/
+
+.btne{
+    background-color: #4fbfa8; 
+    color: #f1f1f1; 
+    border-radius: 0; 
+    transition: .2s;
+}
+.btne:hover , .btne:focus{
+    border: 1px solid #4fbfa8; 
+    background-color: #fff;
+    color: #4fbfa8;
+}
+.modal-header, .modal-body {
+    padding: 40px 50px;
+}
+.modal{
+    margin-top: 15vh;
+}
+.square-box
+{
+    width:100px;min-height:110px;margin-right:22px;text-align:center!important;padding:20px 0
+}
+.fa-lg
+{
+    font-size:4em
+}
+.fa-md
+{
+    font-size:3em;
+}
+
+.same-size{ 
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 700px) {
+    .same-size {
+        height: 350px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .same-size {
+        height: 205px;
+        width: 100%;
+    }
+}
+
+.mason-shadow{
+  box-shadow: 5px 5px 5px #ccc;
+}

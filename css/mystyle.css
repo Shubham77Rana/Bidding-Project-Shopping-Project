@@ -1,0 +1,26 @@
+    .form-container
+    {
+        border: 0px solid #fff;
+        padding: 50px 60px;
+        margin-top: 20vh;
+        background-color: rgba(255,255,255,0.9);
+        background-repeat: repeat-y;
+        box-shadow:  5px 5px 5px 5px rgba(173, 169, 169, 0.9);
+    }
+    .form-control
+    {
+         font-size:15px;
+    }
+   
+          .loginform{
+    width: 300px; /*can be in percentage also.*/
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+    border: 5px solid #A9A9A9;
+    border-radius: 20px;
+    background:#EFEFEF;
+    text-align: center;
+}
+
